@@ -1,45 +1,86 @@
 <!DOCTYPE html>
 <html>
-<header>Estatus de archivos en git:</header>
-<p>
-Fabrica                     Almacen de productos terminados    Tienda
-Directorio de Trabajo      Sala de espera                      Repositorio
-</p>
-<p>
-Comandos de configuracion:
 
-git init: inicia un repo local
+<head>
+    <title>Guia rapida para Git</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
 
-git config --global user.name "Nombre de usuario" 
-git config --global  
-</p>
-<p>
-Pricipales comandos:
-git clone url del repo : permite clonar un Repositorio
-git add permite añadir un archivo al area de staging o todos si usas el .
-git commit -m Envia del area de staging al repository los cambios, es obligatorio poner el modifacador -m para indicar los comentarios
-</p>
-<p>
-Comandos de cambio en el tiempo
-git checkout permite cambiarte a estados previos de commits si estas sobre la misma rama o bien cambiarte a otra rama
-git rm --cached archivo.txt saca de la lista de espera y los regresa a la fabrica a los archivos.
-git rm --force: Elimina los archivos el disco duro
-*****Comandos sumamente peligrosos de usar******
-git reset con tres variantes
---soft borra el historial y los registros de Git pero se guardan los cambios en staging, esto permite aplicar
-las ultimas actualizaciones a un nuevo commit
---hard: El mas peligroso borra todo!!!, toda la informacion de los commits y del area del historial.
+<body>
+
+    <div id="container">
+        <div id="post">
+            <h1>Gui rapida de Comando Git</h1>
+            <p>
+                Directorio de Trabajo Sala de espera Repositorio
+            </p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="post">
+            <h1>Comandos de configuracion:</h1>
+            <p>
+                git init: inicia un repo local
+                git config --global user.name "Nombre de usuario"
+                git config --global
+            </p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="post">
+            <h1> Pricipales comandos:</h1>
+            <p>
+                git add permite añadir un archivo al area de staging o todos si usas el .
+                git commit -m Envia del area de staging al repository los cambios, es obligatorio poner el modifacador
+                -m
+                para
+                indicar los comentarios
+            </p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="post">
+            <h1> Comandos de cambio en el tiempo</h1>
+            <p>
+
+                git checkout permite cambiarte a estados previos de commits si estas sobre la misma rama o bien
+                cambiarte a
+                otra
+                rama
+                git rm --cached archivo.txt saca de la lista de espera y los regresa a la fabrica a los archivos.
+                git rm --force: Elimina los archivos el disco duro
+                *****Comandos sumamente peligrosos de usar******
+                git reset con tres variantes
+                --soft borra el historial y los registros de Git pero se guardan los cambios en staging, esto permite
+                aplicar
+                las ultimas actualizaciones a un nuevo commit
+                --hard: El mas peligroso borra todo!!!, toda la informacion de los commits y del area del historial.
+            </p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="post">
+            <h1> Comando de reporte</h1>
+            <p>
+                git status : muestra el estado de los archivos.
+                git log : Muestra los cambios.
+                git log --stat: nos muestra el historial de cambios desde el mas nuevo hasta mas anciano jajaja
+                git show archivo: txt muestra los cambios hechos al archivo
+                git diff muestas las diferecias entre la fabrica de trabajo y la sala de espera
+            </p>
+        </div>
+    </div>
+    <div id="container">
+        <div id="post">
+            <h1> Comando para repositorio remoto:</h1>
+            <p>
+                git push
+                git clone url del repo : permite clonar un Repositorio
+            </p>
+        </div>
+    </div>
 
 
+</body>
 
-
-</p>
-<p>
-Comando de reporte
-git status : muestra el estado de los archivos.
-git log : Muestra los cambios.
-git log --stat: nos muestra el historial de cambios desde el mas nuevo hasta mas anciano jajaja
-git show archivo: txt muestra los cambios hechos al archivo 
-git diff muestas las diferecias entre la fabrica de trabajo y la sala de espera
-</p>
 </html>
