@@ -3,5 +3,6 @@ y luego lo saque.
 
 Vamos a hacer un commit de esta pendejada para que no se nos olvide el usar el git
 en caso de cagarla va.
-
 entonces esta madre esta chocolateade por varias razones.
+
+Ok vamos a ver las diferencias.
