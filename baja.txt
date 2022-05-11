@@ -1,3 +1,5 @@
 Este archivo lo creo con la intencion de que lo ponga en add .
 y luego lo saque.
 
+Vamos a hacer un commit de esta pendejada para que no se nos olvide el usar el git
+en caso de cagarla va.
